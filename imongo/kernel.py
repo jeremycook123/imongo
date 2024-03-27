@@ -15,7 +15,7 @@ from . import utils
 import pathlib
 import sys
 __version__ = '0.1'
-version_pat = re.compile(r'version\D*(\d+(\.\d+)+)')
+version_pat = re.compile(r'\D*(\d+(\.\d+)+)')
 
 def get_logdir() -> pathlib.Path:
 
